@@ -1,0 +1,1 @@
+<img src="{{ asset('images/logo-aoi.png') }}" style="height: 6rem">

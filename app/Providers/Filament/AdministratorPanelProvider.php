@@ -27,6 +27,7 @@ class AdministratorPanelProvider extends PanelProvider
             ->id('administrator')
             ->path('administrator')
             ->login()
+            ->brandLogo(function() { return view('filament.administrator.logo'); })
             ->colors([
                 'primary' => Color::Amber,
             ])
