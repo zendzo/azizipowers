@@ -38,8 +38,7 @@ class AdministratorPanelProvider extends PanelProvider
             ])
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->widgets([
-                Widgets\AccountWidget::class,
-                Widgets\FilamentInfoWidget::class,
+              // to be filled with widgets
             ])
             ->middleware([
                 EncryptCookies::class,
